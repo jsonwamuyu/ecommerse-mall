@@ -1,5 +1,13 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('http://127.0.0.1:5500/login.html')
+/// <reference types="Cypress"/>
+
+describe('Test login page', () => {
+
+  // beforeEach(()=>{
+  //   cy.visit('login.html')
+  // })
+
+  
+  it("Return header with content Login", ()=>{
+cy.visit('login.html')
   })
 })
