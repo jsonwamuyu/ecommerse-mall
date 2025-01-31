@@ -1,0 +1,325 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.1303bb05.css">
+    <title>Home</title>
+    <style>.preview {
+  flex-direction: row;
+  gap: 10px;
+  height: 400px;
+  display: flex;
+}
+
+.hero {
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  display: grid;
+}
+
+.footer {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+}
+
+@media screen and (width >= 600px) {
+  .footer {
+    flex-direction: row;
+  }
+
+  .hero {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .preview {
+    flex-direction: column;
+  }
+}
+
+@media screen and (width >= 900px) {
+  .hero {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+
+    <div class="main">
+        <!-- NAVBAR -->
+        <header class="navbar-wrapper" style="position: fixed; top: 0; left: 0; right: 0">
+            <nav class="container navbar">
+                <!-- LOGO -->
+
+                <a href=""><img src="/logo.d4f8fe33.png" alt="" style="width: auto; height: 5rem"></a>
+
+                <div class="search-product">
+                    <form action="" class="search-form">
+                        <input type="text" name="" id="search" placeholder="Search product...">
+                    </form>
+                    <div style="color: var(--primary-color)">
+                        <ion-icon name="search-outline" class="icon"></ion-icon>
+                    </div>
+                </div>
+                <nav class="account">
+                    <ul class="account-links">
+                        <li><a href="#all-products">Products</a></li>
+                        <li id="auth-button"><a href=""></a></li>
+                    </ul>
+                    <a href="#my-cart" class="cart">
+                        <ion-icon name="cart-outline" class="icon"></ion-icon>
+                        <div class="cart-count" id="cart-badge-container">
+                            <p id="cart-count" style="color: #fff; margin: 0; padding: 0; font-size: .6rem">0</p>
+                        </div>
+                    </a>
+                </nav>
+            </nav>
+        </header>
+        <!-- HERO -->
+        <div class="hero-wrapper" style="margin-top: 4rem">
+            <div class="hero container">
+                <img src="/jordan-%20max-aura-6.54d59c24.jpg" alt="" style="object-fit: cover; width: 100%; height: 410px">
+                <div class="preview">
+                    <img src="/jordan-aura-mini.8f554be0.png" alt="" style="object-fit: cover; width: 100%; height: 50%">
+                    <img src="/jordan-aura-mini1.cd04d25e.png" alt="" style="object-fit: cover; width: 100%; height: 50%">
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCTS DISPLAY -->
+        <div class="products-wrapper" id="all-products">
+            <div class="container">
+                <h3 style="padding: 4rem 0">PRODUCTS</h3>
+            </div>
+            <div class="container products" id="products">
+                <!-- Fetch products to appear here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- YOUR CART -->
+    <div class="wrapper" id="my-cart" style="background-color: var(--base-bg-color); margin-top: 2rem; padding-top: 2rem; padding-bottom: 4rem">
+        <div class="container">
+            <h3>Your Cart</h3>
+
+            <div id="cart" class="cart-details">
+                <div>
+                    <ul id="cart-items" class="products" style="flex-direction: column; gap: 1rem; padding-top: 2rem; display: flex">
+                    </ul>
+
+                </div>
+                <div class="clear-checkout">
+                    <div style="justify-content: space-between; align-items: center; width: 100%; padding: 2rem 0; display: flex">
+                        <h5>Total</h5>
+                        <h4 id="cart-total">$0</h4>
+                    </div>
+                    <button id="clear-cart-button">Clear Cart</button>
+                    <button id="checkout-button">Checkout</button>
+                    <div id="checkout-message"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="wrapper" style="background-color: #f8f9fa">
+        <footer class="container" style="justify-content: space-between; gap: 4rem; padding-top: 3rem; padding-bottom: 1rem; display: flex">
+            <div style="flex-direction: row; align-items: center; gap: 2rem; display: flex">
+                <img src="/logo.d4f8fe33.png" alt="logo" style="width: auto; height: 100px">
+                <p style="max-width: 300px">We offfer the best deals in town. come and witness the magic</p>
+            </div>
+
+            <div style="flex-direction: column; gap: 1rem; display: flex">
+                <h5>Quick Links</h5>
+                <div style="flex-direction: column; gap: .5rem; display: flex">
+                    <a href="">Products</a>
+                    <a href="">Help</a>
+                    <a href="">About Us</a>
+                </div>
+            </div>
+            <div style="flex-direction: column; gap: 1rem; display: flex">
+                <h5>Get Help</h5>
+                <div style="flex-direction: column; gap: .5rem; display: flex">
+                    <a href="">Contact Us</a>
+                    <a href="">Customers Care</a>
+                    <a href="">FAQs</a>
+                </div>
+            </div>
+            <div style="flex-direction: column; gap: 1rem; display: flex">
+                <h5>Socials</h5>
+                <div style="flex-direction: column; gap: .5rem; display: flex">
+                    <a href="">Facebook</a>
+                    <a href="">Intagram</a>
+                    <a href="">Twitter</a>
+                </div>
+            </div>
+        </footer>
+        <div class="" style="border-top: 2px solid #f8f9fa; padding-top: 1rem; padding-bottom: 1rem">
+            <div class="footer container">
+                <p style="font-size: .9rem">All rigths reserved &copy;2023</p>
+                <p style="font-size: .8rem">Build <span><ion-icon name="heart" style="color: red"></ion-icon></span>
+                    by JOHNSON WAMUYU</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="/index.7c0ccee6.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', async ()=>{
+    const products = await fetchData('products');
+    const productList = document.getElementById('products');
+    const authButton = document.getElementById('auth-button');
+    const logoutButton = document.getElementById('logout-button');
+    if (logoutButton) logoutButton.addEventListener('click', logout);
+    // check whether the user is logged in 
+    const loggedInUser = localStorage.getItem('loggedInUser');
+    if (loggedInUser) {
+        authButton.textContent = "Logout";
+        authButton.addEventListener("click", logout);
+    } else {
+        authButton.textContent = "Login";
+        authButton.addEventListener('click', ()=>{
+            window.location.href = 'login.html';
+        });
+    }
+    productList.innerHTML = '';
+    products.forEach((product)=>{
+        const item = document.createElement('div');
+        item.classList = 'product-card';
+        item.innerHTML = `
+                    <img src="${product.image}" alt="" style="height:200px;width:200px; object-fit:contain;" />
+                    <h6>${product.name}</h6> 
+                    <p>$${product.price} </p>
+                    <div>
+                        <button onclick="addToCart(${product.id}, '${product.name}', ${product.price})">Add to Cart</button>
+                    </div>
+                `;
+        productList.appendChild(item);
+    });
+    document.getElementById('clear-cart-button').addEventListener('click', clearCart);
+    updateCartBadge();
+    updateCartDisplay();
+});
+async function addToCart(id, name, price) {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const existingProduct = cart.find((item)=>item.id === id);
+    if (existingProduct) existingProduct.quantity++;
+    else cart.push({
+        id,
+        name,
+        price,
+        quantity: 1
+    });
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartDisplay();
+    updateCartBadge();
+}
+function updateCartDisplay() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartItems = document.getElementById('cart-items');
+    const cartTotal = document.getElementById('cart-total');
+    cartItems.innerHTML = '';
+    let total = 0;
+    cart.forEach((item)=>{
+        total += item.price * item.quantity;
+        const li = document.createElement('div');
+        li.classList = 'cart-item';
+        li.innerHTML = `
+                    <h6>${item.name} </h6>
+                    <div style="display:flex; flex-direction:row; gap:2rem; align-items:center;">
+                        <p> $${item.price} </p> x <p class="cart-count">${item.quantity} </p>
+                    </div>
+                    <div style="display: flex; flex-direction:row; gap:1rem">
+                        <button onclick="removeFromCart(${item.id})">Remove</button>
+                        <button onclick="increaseQuantity(${item.id})">+</button>
+                        <button onclick="decreaseQuantity(${item.id})">-</button>
+                    </div>
+                `;
+        cartItems.appendChild(li);
+    });
+    cartTotal.textContent = `$${total}`;
+    updateCartBadge();
+}
+function removeFromCart(id) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart = cart.filter((item)=>item.id !== id);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartDisplay();
+    updateCartBadge();
+}
+function increaseQuantity(id) {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const product = cart.find((item)=>item.id === id);
+    if (product) product.quantity++;
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartDisplay();
+    updateCartBadge();
+}
+function decreaseQuantity(id) {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const product = cart.find((item)=>item.id === id);
+    if (product && product.quantity > 1) product.quantity--;
+    else if (product) cart.splice(cart.indexOf(product), 1);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartDisplay();
+    updateCartBadge();
+}
+document.getElementById("checkout-button").addEventListener('click', checkout);
+function checkout() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    if (cart.length === 0) {
+        showCheckoutMessage("Your cart is empty. Add items to checkout");
+        return;
+    }
+    //simulate checkout proocess
+    localStorage.removeItem('cart');
+    updateCartDisplay();
+    showCheckoutMessage("Checkout success! Thank you for your purchase.");
+}
+function showCheckoutMessage(message) {
+    const messageContainer = document.getElementById("checkout-message");
+    messageContainer.textContent = message;
+    messageContainer.style.display = 'block';
+    messageContainer.style.fontSize = '0.9rem';
+    messageContainer.style.paddingTop = "1rem";
+    setTimeout(()=>{
+        messageContainer.style.display = 'none';
+    }, 5000);
+}
+function clearCart() {
+    localStorage.removeItem('cart');
+    updateCartDisplay();
+    updateCartBadge();
+}
+// Function to update the cart count badge
+function updateCartBadge() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartCount = cart.reduce((count, item)=>count + item.quantity, 0);
+    document.getElementById('cart-count').textContent = cartCount;
+}
+// Logout function
+function logout() {
+    if (confirm("Are you sure you want to logout?")) {
+        // Clear local storage or session data
+        localStorage.removeItem('loggedInUser');
+        localStorage.removeItem('cart'); // Clear cart data
+        // Redirect to login page
+        window.location.href = "login.html";
+    }
+}
+
+</script>
+
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer=""></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!-- File: signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/signup.1303bb05.css">
+    <style>form input {
+  border: 2px solid var(--base-bg-color);
+  background-color: #0000;
+  outline: none;
+  padding: 1rem 2rem;
+}
+
+#signup-form {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.logo-img {
+  width: auto;
+  height: 8rem;
+}
+
+.signup-container {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.error-message {
+  color: var(--error-color);
+  padding-bottom: .5rem;
+  font-size: .8rem;
+}
+</style>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="signup-container">
+      <img src="/logo.d4f8fe33.png" alt="logo" class="logo-img">
+
+      <h1 style="margin-bottom: 2rem">Sign Up</h1>
+      <div class="error-message" id="error-message" data-cy="error-message"></div>
+      <form id="signup-form">
+        <input type="text" id="fullname" name="fullname" placeholder="Full names" data-cy="-signup-fullname-input">
+
+        <input type="email" id="email" name="email" placeholder="Email" data-cy="signup-email-input">
+
+        <input type="password" id="password" name="password" placeholder="Password" data-cy="signup-password-input">
+
+        <button type="submit" style="margin-top: 1rem" data-cy="signup-button">Sign Up</button>
+      </form>
+      <p style="margin-top: 2rem; font-size: .9rem">
+        Already have an account? <a href="/login.html">Login</a>
+      </p>
+    </div>
+    <script src="/signup.7c0ccee6.js"></script>
+    <script>document.getElementById("signup-form").addEventListener("submit", signup);
+
+</script>
+  <script src="/signup.81ad8518.js"></script></body>
+</html>

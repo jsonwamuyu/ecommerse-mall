@@ -38,6 +38,10 @@ async function login(event) {
     return;
   }
 
+if(!isValidEmail){
+  showError("Invalid email format.")
+}
+
   try {
     // Now that we are sure password and email fields are not empty. Fetch all the users from database(LocalStorage or server)
     const users = await fetchData("users");
@@ -48,12 +52,12 @@ async function login(event) {
       localStorage.setItem('loggedInUser', JSON.stringify(user));
       window.location.href = user.role === "admin" ? "admin.html" : "index.html"
     } else {
-      showError("Inavalid email or password.")
+      showError("Invalid email or password.")
     }
 
   } catch (error) {
-    console.log("An error occured while login")
-    showError("Unexpected error occured. Please try again.")
+    console.log("An error occurred while login")
+    showError("Unexpected error occurred. Please try again.")
   }
 }
 
@@ -115,4 +119,9 @@ async function calculateCartTotal() {
 }
 
 
-module.exports = { login, showError,fetchData }
+function isValidEmail(email) {
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailPattern.test(email);
+}
+
+// module.exports = { login, showError,fetchData }

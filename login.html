@@ -36,15 +36,15 @@
 </head>
 <body>
     <div class="login-container">
-        <img src="./images/logo.png" alt="logo" srcset="" class="logo-img">
-        <h1 style="margin-bottom: 2rem;">Login</h1>
-        <div class="error-message" id="error-message"></div>
+        <img src="./images/logo.png" alt="logo" class="logo-img">
+        <h1 style="margin-bottom: 2rem;" data-cy="login-title">Login</h1>
+        <div class="error-message" id="error-message" data-cy="error-message"></div>
         <form id="login-form">
-            <input type="email" id="email" name="email" placeholder="Email Address" >
+            <input type="text" id="email" name="email" placeholder="Email Address" data-cy="login-email-input" >
 
-            <input type="password" id="password" name="password"  placeholder="Password">
+            <input type="password" id="password" name="password"  placeholder="Password" data-cy="login-password-input">
 
-            <button type="submit" style="margin-top: 1rem;">Login</button>
+            <button type="submit" style="margin-top: 1rem;" data-cy="login-button">Login</button>
         </form>
         <p style="font-size: 0.9rem; margin-top: 2rem;">Already have an account? <a href="signup.html">Sign Up</a></p>
 
