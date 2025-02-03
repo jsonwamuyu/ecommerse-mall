@@ -11,5 +11,14 @@ describe("Test signup page", () => {
     cy.get('[data-cy="signup-button"]').click();
     cy.get('[data-cy="error-message"]').contains('All fields are required.')
   })
-  it()
+  it("should show validation errors for empty fields", () => {
+    cy.get('[data-cy="signup-button"]').click();
+    cy.get("[data-cy='error-message']").contains("All fields are required.");
+  });
+
+  it("Show a link to sign up", () => {
+    cy.get('p').contains(
+      "Already have an account? Login"
+    );
+  });
 });
