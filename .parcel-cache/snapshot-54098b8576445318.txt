@@ -1,4 +1,4 @@
-16586
+16590
 135B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\caniuse-lite\data\features\css-rebeccapurple.js133820993993342267 0
 85B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\.gitignore133821012414185970 0
 96B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\inherits133827954654165016 1
@@ -18,7 +18,7 @@
 122B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\types\lib\asserts\generated133827954571505211 1
 119B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\caniuse-lite\data\regions\SZ.js133820993997339711 0
 108B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\y18n\build\index.cjs133820993982446016 0
-79B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist133828023772396433 1
+79B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist133830536766440818 1
 120B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\cypress\types\lodash\fp\set.d.ts133827966301259538 0
 121B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\htmlparser2\lib\WritableStream.js133827973481060670 0
 102B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\lodash\noop.js133827966319360850 0
@@ -208,7 +208,7 @@
 94B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\expect133827954644585480 1
 106B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\lodash\_baseSum.js133827966249539515 0
 118B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\type-fest\source\asyncify.d.ts133820993984700302 0
-86B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\signup.html133827985153392943 0
+86B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\signup.html133828052749782946 0
 150B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@parcel\package-manager\node_modules\semver\ranges\simplify.js133827973494215945 0
 137B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\rxjs\dist\esm\internal\operators\auditTime.js.map133827966338237507 0
 141B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\rxjs\dist\esm\internal\operators\dematerialize.js.map133827966343317668 0
@@ -3050,6 +3050,7 @@
 121B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\caniuse-lite\data\features\svg.js133820993997302613 0
 123B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\core\lib\config\index.js.map133820993989681973 0
 111B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\lodash\_countHolders.js133827966258882486 0
+102B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.7c0ccee6.js.map133828053125546631 0
 120B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\uuid\dist\umd\uuidVersion.min.js133827966233000880 0
 112B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\is-typedarray\LICENSE.md133827966197831496 0
 130B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\rxjs\dist\esm\internal\operators\repeat.js133827966303806380 0
@@ -10589,7 +10590,7 @@
 141B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js133821120604760088 0
 148B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTableCaptionElement-impl.js133821120604776132 0
 130B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\generator\lib\generators\modules.js133820993988325305 0
-90B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\login.html133828023772385894 0
+90B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\login.html133828053126275961 0
 145B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTableCellElement-impl.js133821120604811244 0
 124B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@parcel\types-internal\lib\Glob.d.ts133827973490830996 0
 141B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTableElement-impl.js133821120604837321 0
@@ -11661,7 +11662,7 @@
 104B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\figures\index.js133827966188842040 0
 123B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\caniuse-lite\data\regions\alt-an.js133820993987774727 0
 100B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@parcel\core133827973500497297 1
-99B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\cypress\e2e\signup.cy.js133828047552492105 0
+99B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\cypress\e2e\signup.cy.js133828060907908635 0
 103B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\figures\license133827966187280333 0
 108B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\figures\node_modules133827966177684788 1
 137B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\caniuse-lite\data\features\css-media-scripting.js133820993993148223 0
@@ -14692,6 +14693,7 @@
 135B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@tootallnate\once\dist\overloaded-parameters.js133821120595167271 0
 115B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@sinclair\typebox\readme.md133820993988652219 0
 151B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@parcel\transformer-js\node_modules\semver\functions\compare.js133827973480364699 0
+99B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.1303bb05.css133828053125576742 0
 139B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@tootallnate\once\dist\overloaded-parameters.js.map133821120599134410 0
 100B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@swc\counter133827973474686318 1
 139B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\helpers\lib\helpers\assertThisInitialized.js133820993989189861 0
@@ -15962,7 +15964,7 @@
 140B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@jridgewell\sourcemap-codec\dist\sourcemap-codec.mjs133820993985802237 0
 144B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@jridgewell\sourcemap-codec\dist\sourcemap-codec.mjs.map133820993984251472 0
 139B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@jridgewell\sourcemap-codec\dist\types\strings.d.ts133820993986594784 0
-101B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\login.3249096d.js.map133828016955702209 0
+101B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\login.3249096d.js.map133828053125546631 0
 110B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\types\lib\clone133827954572169931 1
 114B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@jridgewell\set-array\dist133827954581153586 1
 117B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@jridgewell\set-array\LICENSE133820993981862967 0
@@ -16428,6 +16430,7 @@
 129B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\core\src\config\resolve-targets.ts133820993992394036 0
 116B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\core\lib\parse.js.map133820993991405027 0
 110B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\core\lib\parser133827954561554841 1
+103B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.1303bb05.css.map133828053125659326 0
 109B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\core\lib\tools133827954561711221 1
 125B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\core\lib\transform-file.js.map133820993991864294 0
 133B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\node_modules\@babel\core\lib\vendor\import-meta-resolve.js133820993992241221 0
@@ -16576,11 +16579,12 @@
 109B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\jordan-aura-mini.8f554be0.png133827979990441640 0
 98B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\login.1303bb05.css133828016955191844 0
 102B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\login.1303bb05.css.map133828016955618198 0
-97B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\login.3249096d.js133828016955670153 0
-97B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\logo.d4f8fe33.png133828016954838118 0
-98B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.81ad8518.js133828016955176728 0
-102B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.81ad8518.js.map133828016955594899 0
-91B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.html133828016956287447 0
+97B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\login.3249096d.js133828053125390377 0
+97B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\logo.d4f8fe33.png133828053125164401 0
+98B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.7c0ccee6.js133828053125390377 0
+98B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.81ad8518.js133828053126024493 0
+102B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.81ad8518.js.map133828053126076594 0
+91B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\dist\signup.html133830536766425822 0
 91B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\cypress\fixtures133827968878779055 1
 102B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\cypress\support\commands.js133827968878789168 0
 104B:\Web Development\Projects\TEACH2GIVE\WEEK 3\New folder\ecommerse-project\cypress\fixtures\example.json133827968878789168 0

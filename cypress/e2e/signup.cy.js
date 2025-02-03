@@ -11,4 +11,5 @@ describe("Test signup page", () => {
     cy.get('[data-cy="signup-button"]').click();
     cy.get('[data-cy="error-message"]').contains('All fields are required.')
   })
+  it()
 });
